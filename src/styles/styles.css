@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .book-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  .book-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+  }
+  
+  .book-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+  }
+  
